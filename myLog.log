@@ -1,0 +1,29 @@
+2020-11-04 18:31:48.972  INFO 4720 --- [restartedMain] com.example.logging.MainApp              : Starting MainApp on LAPTOP-I7LTHJQ8 with PID 4720 (C:\Users\HP-PC\IdeaProjects\Logging\target\classes started by HP-PC in C:\Users\HP-PC\IdeaProjects\Logging)
+2020-11-04 18:31:48.988  INFO 4720 --- [restartedMain] com.example.logging.MainApp              : No active profile set, falling back to default profiles: default
+2020-11-04 18:31:49.124  INFO 4720 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-11-04 18:31:49.124  INFO 4720 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-11-04 18:31:51.444  INFO 4720 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2020-11-04 18:31:51.460  INFO 4720 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-04 18:31:51.460  INFO 4720 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-04 18:31:51.650  INFO 4720 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-04 18:31:51.650  INFO 4720 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2526 ms
+2020-11-04 18:31:51.991  INFO 4720 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-04 18:31:52.257  INFO 4720 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-04 18:31:52.302  INFO 4720 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2020-11-04 18:31:52.317  INFO 4720 --- [restartedMain] com.example.logging.MainApp              : Started MainApp in 4.184 seconds (JVM running for 5.221)
+2020-11-04 18:31:52.317  INFO 4720 --- [restartedMain] com.example.logging.MainApp              : MainApplication started!
+2020-11-04 18:41:39.656  INFO 4720 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-04 18:41:39.656  INFO 4720 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-04 18:41:39.664  INFO 4720 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2020-11-04 18:41:39.744  INFO 4720 --- [http-nio-8082-exec-1] javax.xml.ws.Service                     : gerMerchant request received for customerId: 1234567
+2020-11-04 18:41:39.744  INFO 4720 --- [http-nio-8082-exec-1] javax.xml.ws.Service                     : getMerchant request for customerId 1234567 processed: Response{code='200', message='SUCCESS'}
+2020-11-04 18:41:40.112  INFO 4720 --- [http-nio-8082-exec-2] javax.xml.ws.Service                     : gerMerchant request received for customerId: 1234567
+2020-11-04 18:41:40.112  INFO 4720 --- [http-nio-8082-exec-2] javax.xml.ws.Service                     : getMerchant request for customerId 1234567 processed: Response{code='200', message='SUCCESS'}
+2020-11-04 18:41:40.723  INFO 4720 --- [http-nio-8082-exec-3] javax.xml.ws.Service                     : gerMerchant request received for customerId: 1234567
+2020-11-04 18:41:40.723  INFO 4720 --- [http-nio-8082-exec-3] javax.xml.ws.Service                     : getMerchant request for customerId 1234567 processed: Response{code='200', message='SUCCESS'}
+2020-11-04 18:41:44.256  INFO 4720 --- [http-nio-8082-exec-4] javax.xml.ws.Service                     : gerMerchant request received for customerId: 12345645
+2020-11-04 18:41:44.256  INFO 4720 --- [http-nio-8082-exec-4] javax.xml.ws.Service                     : getMerchant request for customerId 12345645 processed: Response{code='200', message='SUCCESS'}
+2020-11-04 18:41:47.679  INFO 4720 --- [http-nio-8082-exec-5] javax.xml.ws.Service                     : gerMerchant request received for customerId: 1234562
+2020-11-04 18:41:47.679  INFO 4720 --- [http-nio-8082-exec-5] javax.xml.ws.Service                     : getMerchant request for customerId 1234562 processed: Response{code='200', message='SUCCESS'}
+2020-11-04 18:41:50.165  INFO 4720 --- [http-nio-8082-exec-6] javax.xml.ws.Service                     : gerMerchant request received for customerId: 1234569
+2020-11-04 18:41:50.173  INFO 4720 --- [http-nio-8082-exec-6] javax.xml.ws.Service                     : getMerchant request for customerId 1234569 processed: Response{code='200', message='SUCCESS'}
